@@ -1,4 +1,4 @@
-require('dotenv').config({ path: './.env' })
+require('dotenv').config({ path: '../.env' })
 require('./mongoose/connect')
 // const User = require('./mongoose/scremas/user')
 const express = require('express')
